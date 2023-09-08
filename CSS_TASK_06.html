@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_TASK-06</title>
+    <style>
+        #div1{
+            width:50%;
+            margin:auto;
+            padding:20px;
+        }
+        label{
+            font-size:medium;
+        }
+        #user,#pwd,#login{
+            box-sizing: border-box;
+            margin:5px;
+            width:70vb;
+            height:30px;
+        }
+        #login{
+            background-color: rgb(36, 168, 36);
+            color:white;
+        }
+        #rember{
+            margin:5px;
+        }
+        label{
+            margin-left: 5px;
+        }
+        img{
+            width:250px;
+            height:250px;
+            display:block;
+            margin:auto;
+            
+        }
+        #div12{
+            margin:auto;
+            width:70%;
+            padding:10px;
+        }
+        #div2{
+            padding:10px 0px;
+            margin:5px;
+            background-color: lightgray;
+        }
+        #cancel{
+            color:white;
+            background-color: red;
+            font-size: 15px;
+            padding:5px;
+        }
+        input[type="submit"]{
+            border-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profile Picture">
+        <div id="div12">
+            <form>
+                <label for="user"><b> Username</b></label><br>
+                <input type="text" id="user" placeholder="Enter Username"><br>
+                <label for="pwd"><b> Password</b></label><br>
+                <input type="password" id="pwd" placeholder="Enter Password"><br>
+                <input  type="submit" value="Login" id="login"><br>
+                <input type="checkbox" name="rember" id="rember">Remember me<br>
+                <div id="div2">
+                    <input type="submit" value="Cancel" id="cancel">
+                    <span style="float:right">Forgot<a href="#password"> password?</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
